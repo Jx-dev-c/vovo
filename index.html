@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário da Vovó - 21/06/2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffd9ec, #ffe4b5);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            max-width: 500px;
+            width: 100%;
+            animation: aparecer 1.5s ease;
+        }
+
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #d6336c;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .versiculo {
+            background-color: #ffeef5;
+            padding: 15px;
+            border-radius: 15px;
+            font-style: italic;
+            border: 1px solid #f7c8d6;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🎉 Feliz Aniversário, Vovó!</h1>
+        <h2>21 de Junho de 2025</h2>
+        <p>Hoje celebramos mais um ano da vida dessa mulher maravilhosa, cheia de amor, fé e alegria!</p>
+
+        <div class="versiculo">
+            <p>"Ensina-nos a contar os nossos dias para que o nosso coração alcance sabedoria." <br><strong>Salmos 90:12</strong></p>
+        </div>
+
+        <p>Que Deus continue te abençoando com muita saúde, paz e amor! 💖</p>
+    </div>
+
+    <div class="footer">
+        Feito com carinho pela família ❤️
+    </div>
+
+</body>
+</html>
